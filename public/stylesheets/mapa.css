@@ -1,0 +1,120 @@
+#map2 {
+  width:46cm;
+	height:21cm;
+	position:absolute;
+	left:2cm;
+	top:2cm;
+    right: 2cm;
+position:center;
+border: 1px solid #94e1af;
+  
+}
+#map1 {
+  width:46cm;
+	height:21cm;
+position:absolute;
+left:2cm;
+top:2cm;
+  right: 2cm;
+position:center;
+border: 1px solid #94e1af;
+
+}
+#coordenadas {     
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  width: 40%;
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+font-family: Montserrat;
+  text-align: center;
+  color: #00853E;
+  background: rgba(203.40925633907318, 222.06250101327896, 188.75312358140945);
+}
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #94e1af;
+}
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+    background-color:rgba(203.40925633907318, 222.06250101327896, 188.75312358140945);
+  }
+  h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #74b5a5;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #35a666;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  h3 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #35a666;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  p{
+    text-align: center;
+  }
+  hr{
+    color: #35a666;
+    width: 50%
+    
+  }
+
+  .jumbotron {
+    background-color: #a9c85b;
+    color: rgb(161, 42, 42);
+    padding: 80px 15px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+    
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    background-color: #014421;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-right
+  {
+    transform: translateX(50%);
+  }
+  .navbar-left
+  {
+    transform: translateX(-42%);
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+
+    color: #D0F0C0 !important;/*#D0F0C0*/
+    background-color: #00853E !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #D0F0C0 !important;
+  }
+

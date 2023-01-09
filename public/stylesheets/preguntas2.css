@@ -1,0 +1,224 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    align-items: center;
+    color: #74b5a5;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #35a666;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background-color: #a9c85b;
+    color: #fff;
+    padding: 80px 15px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    background-color: #014421;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-right
+  {
+    transform: translateX(50%);
+  }
+  .navbar-left
+  {
+    transform: translateX(-42%);
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+
+    color: #D0F0C0 !important;/*#D0F0C0*/
+    background-color: #00853E !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #D0F0C0 !important;
+  }
+
+  .titulo { 
+	color:rgba(186.37206494808197, 218.87500405311584, 145.00468790531158, 1);
+	width:22cm;
+	height:6cm;
+	position:absolute;
+	left:6cm;
+	top:3cm;
+	font-family:Lato;
+    text-transform: uppercase;
+	text-align:left;
+	font-size:90px;
+	letter-spacing:2;
+}
+.cab { 
+	color:rgba(0, 0, 0, 1);
+	width:15cm;
+	height:7cm;
+	position:absolute;
+	right:6cm;
+	top:5cm;
+	font-family:Lato;
+	text-align:left;
+	font-size:22px;
+	letter-spacing:0;
+}
+.GrisArrIz{ 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:17cm;
+	height:8cm;
+	position:absolute;
+	left:5cm;
+	top:13cm;
+    filter: blur(2px);
+}
+.p1 { 
+	color:rgba(0, 0, 0, 1);
+	width:13cm;
+	height:2cm;
+	position:absolute;
+	left:7cm;
+	top:13.7cm;
+	font-family:Lato;
+    text-transform: uppercase;
+	text-align:center;
+	font-size:22px;
+	letter-spacing:0;
+}
+.r1 { 
+	color:rgba(0, 0, 0, 1);
+	width:13cm;
+	height:9cm;
+	position:absolute;
+	left:7cm;
+	top:15.5cm;
+	font-family:Lato;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.VerdArrbDere { 
+	background-color:rgba(203.40925633907318, 222.06250101327896, 188.75312358140945, 1);
+	width:17cm;
+	height:8cm;
+	position:absolute;
+	right:5cm;
+	top:13cm;
+    filter: blur(2px);
+}
+.p2 { 
+	color:rgba(0, 0, 0, 1);
+	width:14cm;
+	height:2cm;
+	position:absolute;
+	right:7cm;
+	top:13.2cm;
+	font-family:Lato;
+	text-align:center;
+    text-transform: uppercase;
+	font-size:22px;
+	letter-spacing:0;
+}
+.r2 { 
+	color:rgba(0, 0, 0, 1);
+	width:13cm;
+	height:9cm;
+	position:absolute;
+	right:7cm;
+	top:15.5cm;
+	font-family:Lato;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.GrisAbDere { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:17cm;
+	height:8cm;
+	position:absolute;
+	left:5cm;
+	top:23cm;
+    filter: blur(2px);
+}
+.p3 { 
+	color:rgba(0, 0, 0, 1);
+	width:13cm;
+	height:2cm;
+	position:absolute;
+	left:7cm;
+	top:23.2cm;
+	font-family:Lato;
+	text-align:center;
+    text-transform: uppercase;
+	font-size:22px;
+	letter-spacing:0;
+}
+.r3 { 
+	color:rgba(0, 0, 0, 1);
+	width:13cm;
+	height:9cm;
+	position:absolute;
+	left:7cm;
+	top:25.5cm;
+	font-family:Lato;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+
+.VerdAbIz { 
+	background-color:rgba(203.40925633907318, 222.06250101327896, 188.75312358140945, 1);
+	width:17cm;
+	height:8cm;
+	position:absolute;
+	right:5cm;
+	top:23cm;
+    filter: blur(2px);
+}
+.p4 { 
+	color:rgba(0, 0, 0, 1);
+	width:14cm;
+	height:2cm;
+	position:absolute;
+    text-transform: uppercase;
+	right:7cm;
+	top:23.2cm;
+	font-family:Lato;
+	text-align:center;
+	font-size:22px;
+	letter-spacing:0;
+}
+.r4 { 
+	color:rgba(0, 0, 0, 1);
+	width:13cm;
+	height:9cm;
+	position:absolute;
+	right:7cm;
+	top:25.5cm;
+	font-family:Lato;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}

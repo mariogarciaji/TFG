@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <% include header %>
+    <head>
+  
+      <link rel="stylesheet" href="../stylesheets/fondo.css">
+      
+    </head>
+    
+    <div class="container-fluid text-center " 	style="margin-top:10%">    
+      <div class="body">
+      <div class="row content">
+        <div class="col-lg-4 sidenav"></div>
+        <div class="col-lg-4 text-justify"  >
+          <div class="login-box" style="border-style: solid; border-width: 1px; padding: 1%; border-radius: 2.5rem; background-color: #D0F0C0; border-color: #e7f3e1;">
+          <h2 style="text-align: center;">Registro</h2>
+          <!-- form -->
+            <form action="/signup" method="post">
+              <div class="row content" style="text-align: center;">
+                  <div class="user-box">
+                    <label >Nombre:</label>
+                  </div>
+                  <div class="user-box" style="display:flex; justify-content: center;">
+                      <input name="name" class="form-control" style="width:45%">
+                  </div>
+                  <div class="user-box">
+                    <label >Apellidos:</label>
+                  </div>
+                  <div class="user-box" style="display:flex; justify-content: center;">
+                      <input name="surname" class="form-control" style="width:45%">
+                  </div>
+                  
+                  <div class="user-box">
+                    <label for="email">Correo:</label>
+                  </div>
+                  <div class="user-box" style="display:flex; justify-content: center;">
+                      <input type="email" name="email" class="form-control" style="width:45%">
+                  </div>
+                  <div class="user-box">
+                    <label for="password">Contraseña:</label>
+                  </div>
+                  <div class="user-box" style="display:flex; justify-content: center;">
+                      <input type="password" name="password" class="form-control" style="width:45%">
+                  </div>
+                <br>    
+                  <div >
+                    <button type="submit" class="btn btn-primary" style="border-radius: 40%; background-color: rgb(47, 123, 81);">Crear Cuenta</button>
+                </div>  
+                <br>
+                  
+            </div>
+            </form>
+        </div>
+        <div class="col-lg-4 sidenav"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+    </body>
+    </html>
