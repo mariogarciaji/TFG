@@ -95,7 +95,7 @@ map1.addControl(new mapboxgl.FullscreenControl());
     $.ajax({
   url: 'https://openapi.emtmadrid.es/v1/transport/bicimad/stations/',
   headers: {
-    'accessToken': '8dc36918-bcbb-49f6-b3b9-c4c8fb1488b3'
+    'accessToken': 'a55bfcc2-b3fc-426b-b635-7b8ce5c48f03'//'8dc36918-bcbb-49f6-b3b9-c4c8fb1488b3'
   },
   success: function(data) {
     //for (const estacion in data){
@@ -133,6 +133,7 @@ map1.addControl(new mapboxgl.FullscreenControl());
         }
       
       })
+      
       .setHTML('<h3>' + estacion.address + '</h3>' +
       
                '<p>Número de bicis disponibles: ' + estacion.free_bases + '</p>' + '<hr>' +
