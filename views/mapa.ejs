@@ -17,9 +17,9 @@
 
     <div id="menu" style="position:absolute ;bottom: 45px;right: 100px;">
       <input id="ckiu1e9jn2ggz19s3eg95v3nc" type="radio" name="rtoggle" value="satellite" checked="checked">
-      <label for="ckiu1e9jn2ggz19s3eg95v3nc">Modo Dia</label>
+      <label for="ckiu1e9jn2ggz19s3eg95v3nc" style="color:#74b5a5;">Modo Dia</label>
       <input id="clcmev9fu003x14lcuos3dom6" type="radio" name="rtoggle" value="light">
-      <label for="clcmev9fu003x14lcuos3dom6">Modo Noche</label>
+      <label for="clcmev9fu003x14lcuos3dom6" style="color:#74b5a5;">Modo Noche</label>
       </div>
 
 
@@ -95,7 +95,7 @@ map1.addControl(new mapboxgl.FullscreenControl());
     $.ajax({
   url: 'https://openapi.emtmadrid.es/v1/transport/bicimad/stations/',
   headers: {
-    'accessToken': 'a55bfcc2-b3fc-426b-b635-7b8ce5c48f03'//'8dc36918-bcbb-49f6-b3b9-c4c8fb1488b3'
+    'accessToken': 'e6a3ee92-9e2b-461a-87f4-d7ab0deef3ec'//'8dc36918-bcbb-49f6-b3b9-c4c8fb1488b3'//a55bfcc2-b3fc-426b-b635-7b8ce5c48f03
   },
   success: function(data) {
     //for (const estacion in data){
